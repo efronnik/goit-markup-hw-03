@@ -3,6 +3,11 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 ul {
   list-style-type: none;
