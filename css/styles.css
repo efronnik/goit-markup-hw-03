@@ -47,7 +47,8 @@ a {
 
 .head-logo {
   margin-right: 76px;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav {
@@ -56,6 +57,12 @@ a {
 }
 
 .menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.address {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
@@ -97,6 +104,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .link-info:hover,
