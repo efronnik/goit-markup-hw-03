@@ -66,6 +66,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+  margin-right: auto;
 }
 
 .logo {
@@ -115,12 +116,11 @@ a {
 
 .main-sec {
   background-color: #2e2f42;
-  padding: 188px 472px;
+  padding: 188px;
 }
 
 .main {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .title {
@@ -131,6 +131,7 @@ a {
   color: #ffffff;
   padding-bottom: 48px;
   width: 496px;
+  margin: 0 auto 48px;
 }
 
 .main-btn {
