@@ -6,8 +6,7 @@ body {
 .container {
   max-width: 1158px;
   padding: 0 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 ul,
@@ -29,6 +28,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -63,13 +64,11 @@ a {
 
 .menu {
   display: flex;
-  flex-wrap: wrap;
   gap: 40px;
 }
 
 .address {
   display: flex;
-  flex-wrap: wrap;
   gap: 40px;
   margin-right: auto;
 }
@@ -164,6 +163,7 @@ a {
 .about-list {
   display: flex;
   flex-basis: calc((100% - 3 * 24px) / 4);
+  justify-content: space-between;
 }
 
 .subtitle-about {
@@ -175,7 +175,7 @@ a {
   padding-bottom: 8px;
 }
 
-.text {
+.text-about {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
