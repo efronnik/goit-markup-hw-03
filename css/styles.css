@@ -143,6 +143,8 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
 }
 
 .main-btn:hover,
