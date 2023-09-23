@@ -115,6 +115,12 @@ a {
 
 .main-sec {
   background-color: #2e2f42;
+  padding: 188px 472px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .title {
@@ -123,6 +129,8 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  padding-bottom: 48px;
+  width: 496px;
 }
 
 .main-btn {
