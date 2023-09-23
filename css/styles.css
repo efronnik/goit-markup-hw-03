@@ -200,10 +200,10 @@ a {
 .list-team {
   display: flex;
   justify-content: space-between;
+  gap: 32px;
 }
 
 .photo {
-  gap: 32px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -233,12 +233,46 @@ a {
   padding-bottom: 32px;
 }
 
+.subtitle-portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  padding-bottom: 72px;
+}
+
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+  text-align: start;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+
 .subtitle-app {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+
+.app {
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+}
+
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .main-footer {
