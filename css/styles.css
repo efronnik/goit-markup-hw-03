@@ -30,6 +30,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  padding-bottom: 32px;
 }
 
 a {
@@ -193,17 +194,20 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-bottom: 72px;
 }
 
 .list-team {
   display: flex;
+  justify-content: space-between;
 }
 
 .photo {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .item-team {
@@ -216,6 +220,17 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.text-team {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+  padding-bottom: 32px;
 }
 
 .subtitle-app {
