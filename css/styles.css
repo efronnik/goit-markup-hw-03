@@ -164,7 +164,6 @@ a {
 .about-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .subtitle-about {
@@ -266,13 +265,13 @@ a {
 
 .app {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
 }
 
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 48px;
 }
 
 .main-footer {
@@ -297,4 +296,10 @@ a {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  padding-top: 17.5px;
+  width: 264px;
+}
+
+.foot {
+  padding: 101.5px;
 }
