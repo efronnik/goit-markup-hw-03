@@ -156,6 +156,10 @@ a {
   background-color: #404bbf;
 }
 
+.about-list {
+  display: flex;
+}
+
 .subtitle-about {
   font-weight: 500;
   font-size: 20px;
@@ -164,7 +168,7 @@ a {
   color: #2e2f42;
 }
 
-.text-about {
+.text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -175,7 +179,7 @@ a {
   background-color: #f4f4fd;
 }
 
-.subtitle-team {
+.subtitle {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -196,35 +200,12 @@ a {
   color: #2e2f42;
 }
 
-.text-team {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.subtitle-portfolio {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
 .subtitle-app {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.text-portfolio {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .main-footer {
