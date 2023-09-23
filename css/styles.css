@@ -162,8 +162,8 @@ a {
 
 .about-list {
   display: flex;
-  flex-basis: calc((100% - 3 * 24px) / 4);
-  justify-content: space-between;
+  gap: 24px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .subtitle-about {
