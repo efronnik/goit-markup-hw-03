@@ -163,8 +163,7 @@ a {
 
 .about-list {
   display: flex;
-  flex-basis: calc((100% - 24px) / 3);
-  margin-left: 15px;
+  gap: 24px;
 }
 
 .subtitle-about {
